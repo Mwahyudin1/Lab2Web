@@ -3,7 +3,7 @@
 ### 312210148
 ### TI.22.A1
 
-## Langhak-langka praktikum
+## Langhak-langka praktikum CSS dasar
 pertama buka `VS Code` maka tampilannya awal akan seperti ini.
 ![gamabr-1][def-1]
 
