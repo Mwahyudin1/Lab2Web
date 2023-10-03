@@ -12,4 +12,4 @@ pertama buka `VS Code` maka tampilannya awal akan seperti ini.
 Selanjutnya membuat dokumen `HTML`, pada bagaian title uabah menjadi `CSS Dasar` agar tampilan judul halaman akan berubah menjadi `CSS Dasar`.
 ![gambar-2][def-2]
 
-[gambar-2]: /image/ss2.png
+[def-2]: /image/ss2.png
