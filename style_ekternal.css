@@ -58,12 +58,6 @@ nav a:hover {
     margin: 10px;
     text-decoration: none;
     border-radius: 4px;
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.button:active {
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
-    transform: translate(-10px, -10px);
 }
 
 .btn-primary {
