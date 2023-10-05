@@ -71,3 +71,37 @@ Lalu save lagi dan kembali ke browser dan refresh.
 
 ## Pertanyaan dan Tugas
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+```
+Yang saya lakukan disini menambahkan hayperlink pada dokumen HTML saya lalu menambahkan juga kode pada style CSS maka hasilnya seprti ini
+```
+![gambar-14][def-14]
+
+[def-14]: /image/ss14.png
+
+2. Apa perbedaan pendeklarasian CSS elemen `h1 {...}` dengan `#intro h1 {...}`? berikan penjelasannya!
+```
+Pada pendeklarasian CSS elemen h1 maka yang akan berubah adalah seluruh tag h1 pada halam web berdeda dengan #intro h1 atau tag yang ada id maka itu saja yang akan berubah pada tampilan web.
+```
+
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+```
+Jika ada ketiga deklarasi css secara internal, css eksternal, dan inline css maka yang akan di tampilkan pada browser adalah deklarasi css inline karena memiliki prioritas tertinggi dalam aturan css cascade
+```
+contohnya : 
+![gambar-15][def-15]
+
+[def-15]: /image/ss15.png
+
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! `<p id="paragraf-1" class="text-paragraf">`
+```
+Ketika dalam satu tag html terdapat id dan class didalamnya maka yang akan di tampilkan oleh browser adalah deklarasi css dengan id karena id menjadi prioritas tertinggi dalam aturan css cascade sedangkan class menjadi peioritas kedua setelah id
+```
+contoh penulisan pada tag p di halaman HTML :
+![gambar-16][def-16]
+
+[def-16]: /image/ss16.png
+
+contoh penulisan CSS iinternal atau eksternal
+![gambar-17][def-17]
+
+[def-17]: /image/ss17.png
